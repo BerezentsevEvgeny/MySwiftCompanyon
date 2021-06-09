@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		637DE464267124A500895C08 /* 1.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637DE463267124A500895C08 /* 1.1.swift */; };
+		637DE466267126DC00895C08 /* 1.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637DE465267126DC00895C08 /* 1.2.swift */; };
+		637DE4682671281200895C08 /* 1.3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637DE4672671281200895C08 /* 1.3.swift */; };
+		637DE46A26712B1F00895C08 /* 1.4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637DE46926712B1F00895C08 /* 1.4.swift */; };
 		6393D420266B59C000991EF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6393D41F266B59C000991EF1 /* AppDelegate.swift */; };
 		6393D422266B59C000991EF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6393D421266B59C000991EF1 /* SceneDelegate.swift */; };
-		6393D424266B59C000991EF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6393D423266B59C000991EF1 /* ViewController.swift */; };
 		6393D427266B59C000991EF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6393D425266B59C000991EF1 /* Main.storyboard */; };
 		6393D429266B59C100991EF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6393D428266B59C100991EF1 /* Assets.xcassets */; };
 		6393D42C266B59C100991EF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6393D42A266B59C100991EF1 /* LaunchScreen.storyboard */; };
+		6393D435266B5AB700991EF1 /* Clean Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6393D434266B5AB700991EF1 /* Clean Swift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		637DE463267124A500895C08 /* 1.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.1.swift; sourceTree = "<group>"; };
+		637DE465267126DC00895C08 /* 1.2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.2.swift; sourceTree = "<group>"; };
+		637DE4672671281200895C08 /* 1.3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.3.swift; sourceTree = "<group>"; };
+		637DE46926712B1F00895C08 /* 1.4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.4.swift; sourceTree = "<group>"; };
 		6393D41C266B59C000991EF1 /* MySwiftCompanyon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySwiftCompanyon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6393D41F266B59C000991EF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6393D421266B59C000991EF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6393D423266B59C000991EF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6393D426266B59C000991EF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6393D428266B59C100991EF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6393D42B266B59C100991EF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6393D42D266B59C100991EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6393D434266B5AB700991EF1 /* Clean Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Clean Swift.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,10 +45,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		637DE4622671245900895C08 /* SwiftBook */ = {
+			isa = PBXGroup;
+			children = (
+				637DE463267124A500895C08 /* 1.1.swift */,
+				637DE465267126DC00895C08 /* 1.2.swift */,
+				637DE4672671281200895C08 /* 1.3.swift */,
+				637DE46926712B1F00895C08 /* 1.4.swift */,
+			);
+			path = SwiftBook;
+			sourceTree = "<group>";
+		};
 		6393D413266B59C000991EF1 = {
 			isa = PBXGroup;
 			children = (
 				6393D41E266B59C000991EF1 /* MySwiftCompanyon */,
+				6393D428266B59C100991EF1 /* Assets.xcassets */,
 				6393D41D266B59C000991EF1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,15 +76,23 @@
 		6393D41E266B59C000991EF1 /* MySwiftCompanyon */ = {
 			isa = PBXGroup;
 			children = (
+				6393D434266B5AB700991EF1 /* Clean Swift.swift */,
+				637DE4622671245900895C08 /* SwiftBook */,
+				6393D433266B5A0900991EF1 /* Support */,
+			);
+			path = MySwiftCompanyon;
+			sourceTree = "<group>";
+		};
+		6393D433266B5A0900991EF1 /* Support */ = {
+			isa = PBXGroup;
+			children = (
 				6393D41F266B59C000991EF1 /* AppDelegate.swift */,
 				6393D421266B59C000991EF1 /* SceneDelegate.swift */,
-				6393D423266B59C000991EF1 /* ViewController.swift */,
 				6393D425266B59C000991EF1 /* Main.storyboard */,
-				6393D428266B59C100991EF1 /* Assets.xcassets */,
 				6393D42A266B59C100991EF1 /* LaunchScreen.storyboard */,
 				6393D42D266B59C100991EF1 /* Info.plist */,
 			);
-			path = MySwiftCompanyon;
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +165,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6393D424266B59C000991EF1 /* ViewController.swift in Sources */,
+				637DE464267124A500895C08 /* 1.1.swift in Sources */,
+				637DE466267126DC00895C08 /* 1.2.swift in Sources */,
 				6393D420266B59C000991EF1 /* AppDelegate.swift in Sources */,
+				637DE46A26712B1F00895C08 /* 1.4.swift in Sources */,
 				6393D422266B59C000991EF1 /* SceneDelegate.swift in Sources */,
+				637DE4682671281200895C08 /* 1.3.swift in Sources */,
+				6393D435266B5AB700991EF1 /* Clean Swift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +320,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F824GPAVR5;
-				INFOPLIST_FILE = MySwiftCompanyon/Info.plist;
+				INFOPLIST_FILE = MySwiftCompanyon/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +339,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F824GPAVR5;
-				INFOPLIST_FILE = MySwiftCompanyon/Info.plist;
+				INFOPLIST_FILE = MySwiftCompanyon/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
