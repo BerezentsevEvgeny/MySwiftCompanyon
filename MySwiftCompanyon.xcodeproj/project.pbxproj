@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		630BA31426726EAD005EF1E5 /*  Declaration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630BA31326726EAD005EF1E5 /*  Declaration.swift */; };
+		631D5C36267A774B0078DC09 /* for..in.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631D5C35267A774B0078DC09 /* for..in.swift */; };
+		631D5C38267A78DD0078DC09 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631D5C37267A78DD0078DC09 /* Switch.swift */; };
+		631D5C3B267A7A2A0078DC09 /* Funnctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631D5C3A267A7A2A0078DC09 /* Funnctions.swift */; };
 		634F8AD7267679230063DD00 /* For...in.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F8AD6267679230063DD00 /* For...in.swift */; };
 		6393D420266B59C000991EF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6393D41F266B59C000991EF1 /* AppDelegate.swift */; };
 		6393D422266B59C000991EF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6393D421266B59C000991EF1 /* SceneDelegate.swift */; };
@@ -20,6 +23,9 @@
 
 /* Begin PBXFileReference section */
 		630BA31326726EAD005EF1E5 /*  Declaration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Declaration.swift"; sourceTree = "<group>"; };
+		631D5C35267A774B0078DC09 /* for..in.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = for..in.swift; sourceTree = "<group>"; };
+		631D5C37267A78DD0078DC09 /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
+		631D5C3A267A7A2A0078DC09 /* Funnctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funnctions.swift; sourceTree = "<group>"; };
 		634F8AD6267679230063DD00 /* For...in.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = For...in.swift; sourceTree = "<group>"; };
 		6393D41C266B59C000991EF1 /* MySwiftCompanyon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySwiftCompanyon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6393D41F266B59C000991EF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +57,23 @@
 			path = TableView;
 			sourceTree = "<group>";
 		};
+		631D5C34267A772A0078DC09 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				631D5C35267A774B0078DC09 /* for..in.swift */,
+				631D5C37267A78DD0078DC09 /* Switch.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		631D5C39267A7A190078DC09 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				631D5C3A267A7A2A0078DC09 /* Funnctions.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
 		6393D413266B59C000991EF1 = {
 			isa = PBXGroup;
 			children = (
@@ -71,9 +94,11 @@
 		6393D41E266B59C000991EF1 /* MySwiftCompanyon */ = {
 			isa = PBXGroup;
 			children = (
+				631D5C39267A7A190078DC09 /* Functions */,
 				6393D434266B5AB700991EF1 /* Clean Swift.swift */,
 				63DBF977267680ED0089C34C /* Some.swift */,
 				630BA31226726E18005EF1E5 /* TableView */,
+				631D5C34267A772A0078DC09 /* Actions */,
 				6393D433266B5A0900991EF1 /* Support */,
 				634F8AD6267679230063DD00 /* For...in.swift */,
 			);
@@ -163,9 +188,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6393D420266B59C000991EF1 /* AppDelegate.swift in Sources */,
+				631D5C38267A78DD0078DC09 /* Switch.swift in Sources */,
 				630BA31426726EAD005EF1E5 /*  Declaration.swift in Sources */,
+				631D5C3B267A7A2A0078DC09 /* Funnctions.swift in Sources */,
 				6393D422266B59C000991EF1 /* SceneDelegate.swift in Sources */,
 				63DBF978267680ED0089C34C /* Some.swift in Sources */,
+				631D5C36267A774B0078DC09 /* for..in.swift in Sources */,
 				6393D435266B5AB700991EF1 /* Clean Swift.swift in Sources */,
 				634F8AD7267679230063DD00 /* For...in.swift in Sources */,
 			);
