@@ -1,8 +1,43 @@
 
 import Foundation
 
+class ClassDesign {
+    
+    // 1 IB Outlets
+    @IBOutlet label
+    @IBOutlet label
+    
+    @IBOutlet textField
+    @IBOutlet textField
+
+    // 2 Public properties
+    public var, let
+    // 3 Private properties
+    private var, let
+    
+    // 4 Initializers  если не является вью контроллером
+    init(some: String) {
+        self.some = some
+    }
+    
+    // 4 Override methods Переопределенные методы если является вью контроллером
+    override viewWillAppear()
+    override viewDidLoad()
+    
+    // 5 IB Actions
+    @IBAction func buttonPressed
+    
+    // 6 Public Methods методы экземпляра класса
+    func fetchData()
+    
+    // 7 Private methods методы применяемые внутри класса
+    private func updateUI()
+    
+    // Расширения например для подписи на протокол
+    extension controller: dataSource
+}
+
 /*
- 
  // Class - это reference(ссылочный тип)
  
  Правила:
