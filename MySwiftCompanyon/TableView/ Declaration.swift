@@ -2,7 +2,7 @@
 import Foundation
 import UIKit
 
-class TableViewConroller: UIViewController, UITableViewDataSource {
+class ViewConroller: UIViewController, UITableViewDataSource {
     
     // Model
     struct Person {
@@ -19,7 +19,8 @@ class TableViewConroller: UIViewController, UITableViewDataSource {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.addSubview(tableView)
+        configureModel()
+        view.addSubview(tableView)
         tableView.frame = view.bounds
         tableView.dataSource = self
     }
