@@ -23,6 +23,7 @@
 		63D63140267DC90400F3B6C9 /* ООП.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6313F267DC90400F3B6C9 /* ООП.swift */; };
 		63D63143267DC9DF00F3B6C9 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D63142267DC9DF00F3B6C9 /* Switch.swift */; };
 		63DBF978267680ED0089C34C /* Some.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DBF977267680ED0089C34C /* Some.swift */; };
+		63DE5E342687B77000AC2A82 /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DE5E332687B77000AC2A82 /* Struct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		63D6313F267DC90400F3B6C9 /* ООП.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ООП.swift"; sourceTree = "<group>"; };
 		63D63142267DC9DF00F3B6C9 /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
 		63DBF977267680ED0089C34C /* Some.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Some.swift; sourceTree = "<group>"; };
+		63DE5E332687B77000AC2A82 /* Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				63DBF977267680ED0089C34C /* Some.swift */,
 				63D6313F267DC90400F3B6C9 /* ООП.swift */,
 				63AF20CF267BDE4A00E2D14E /* Class */,
+				63DE5E322687B75000AC2A82 /* Struct */,
 				631D5C3C267A7C270078DC09 /* Closures */,
 				630BA31226726E18005EF1E5 /* TableView */,
 				631D5C39267A7A190078DC09 /* Functions */,
@@ -151,6 +154,14 @@
 				63D63142267DC9DF00F3B6C9 /* Switch.swift */,
 			);
 			path = Switch;
+			sourceTree = "<group>";
+		};
+		63DE5E322687B75000AC2A82 /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				63DE5E332687B77000AC2A82 /* Struct.swift */,
+			);
+			path = Struct;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +246,7 @@
 				631D5C3E267A7C3A0078DC09 /* Closures.swift in Sources */,
 				6393D435266B5AB700991EF1 /* Clean Swift.swift in Sources */,
 				634F8AD7267679230063DD00 /* For...in.swift in Sources */,
+				63DE5E342687B77000AC2A82 /* Struct.swift in Sources */,
 				63D63140267DC90400F3B6C9 /* ООП.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
