@@ -1,7 +1,7 @@
 
 import Foundation
 
-let Структуры = """
+private let Функции = """
 
 private func addNumbers(argument parameter: Int){ }
 
@@ -16,5 +16,19 @@ private func addNumbers(argument parameter: Int){ }
   _n :  пустой
 
   Вариативные параметры -  должен быть один параметр (_ numbers: Double...)
+
+
+  - Функция с возможностью ошибок
+ func send(job: Int, toPrinter printerName: String) throws -> String {
+    if printerName == "Never Has Toner" {
+        throw PrinterError.noToner
+    }
+    return "Job sent" }
+
+  - Обработка ошибок:  do try catch или try?
+
+     
+
+
 
 """

@@ -6,7 +6,7 @@ let Collection = """
         Создание кодом
         
         private var collectionView: UICollectionView?
-    
+        
         override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -21,6 +21,7 @@ let Collection = """
         view.addSubview(collectionView)
         collectionView.frame = view.bounds
         collectionView.backgroundColor = .white
-        
-        
         """
+        
+        
+        

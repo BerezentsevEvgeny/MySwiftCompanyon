@@ -19,7 +19,6 @@ class ViewConroller: UIViewController, UITableViewDataSource {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        configureModel()
         view.addSubview(tableView)
         tableView.frame = view.bounds
         tableView.dataSource = self

@@ -1,7 +1,7 @@
 
 import Foundation
 
-let SceneDelegate = """
+private let SceneDelegateConfig = """
 
 Controller по умолчанию
 

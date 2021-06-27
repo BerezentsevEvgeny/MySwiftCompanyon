@@ -1,8 +1,10 @@
 
 import Foundation
 
-class ClassDesign {
-    
+private let Класс = """
+
+    Class - это reference(ссылочный тип)
+
     // 1 IB Outlets
     @IBOutlet label
     @IBOutlet label
@@ -12,13 +14,13 @@ class ClassDesign {
 
     // 2 Public properties
     public var, let
+
     // 3 Private properties
     private var, let
     
     // 4 Initializers  если не является вью контроллером
     init(some: String) {
-        self.some = some
-    }
+        self.some = some }
     
     // 4 Override methods Переопределенные методы если является вью контроллером
     override viewWillAppear()
@@ -37,16 +39,12 @@ class ClassDesign {
     extension controller: dataSource
 }
 
-let Class = """
-
-Class - это reference(ссылочный тип)
- 
  Правила:
- Описывает один обект
- нейминг - сущность
- икапсуляция
- 1 метод - 1 задача
- не использовать параметры в методе  для временных данных
+ - Описывает один обект
+ - Нейминг - сущность
+ - Икапсуляция
+ - 1 метод - 1 задача
+ - Не использовать параметры в методе  для временных данных
  
  let firstPost = Post() экземпляр класса (обект-ссылка на обект в памяти)
  let secondPost = firstPost  это ссылка в памяти на тот же экземпляр с другим названием
@@ -55,24 +53,22 @@ Class - это reference(ссылочный тип)
  
  init() {}  //  инициализатор это параметры в скобках при создании экземпляра класса -  Class(parameters)
 
+  
+Гетеры и сетеры
+
+var someProperty {
+    get {
+  {
+    set {
+  {
+
+  willSet {
+  {
+  didSet
+
+ 
+}
+
 
 """
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- */
