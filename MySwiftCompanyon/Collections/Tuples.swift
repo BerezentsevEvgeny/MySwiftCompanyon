@@ -4,11 +4,34 @@ import Foundation
 
 let Кортежи = """
     
-    tuples-кортежи
-    - (valueOne,valueTwo,valueThree) - кортеж с разными типами
-    - var currentWeather = (22,”Sunny”)
-    - class Weather {
-    var currentWeather = (Int,String)
+    class Weather {
+        var currentWeather: (Int, String)
+        
+        init(currentWeather: (Int, String)) {
+            self.currentWeather = currentWeather
+        }
     }
+
+    let weather = Weather(currentWeather: (22, "Sunny"))
     
+    Доступ у элементам
+    
+    weather.currentWeather
+
+    weather.currentWeather.0 = 24
+    weather.currentWeather.1 = "Rainy"
+
+    let (_, atmos) = weather.currentWeather
+    atmos
+    
+    Именование
+    
+    var currentWeather = (temp: 22, atmos: "Sunny", windSpeed: 6)
+
+    currentWeather.0 = 4
+    currentWeather.atmos
+    currentWeather.windSpeed
+
+    
+
     """
