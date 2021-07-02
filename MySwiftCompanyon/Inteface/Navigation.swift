@@ -7,6 +7,7 @@
 
 import Foundation
 
+//если NavigationController уже был создан
 func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
     let game = RequestManager.shared.games[indexPath.item]
     let vc = DetailViewController()
@@ -19,7 +20,7 @@ func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPat
 
 
 
-
+// создаем и представляем NavigationController
 @objc func imagesBtnTapped() {
     let destVC = ActorImagesCollectionVC()
     destVC.actorId = actorIdentity
