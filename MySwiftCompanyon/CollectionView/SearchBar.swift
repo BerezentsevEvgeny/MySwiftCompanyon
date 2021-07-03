@@ -21,8 +21,7 @@ class BasicCollectionViewController: UICollectionViewController, UISearchResults
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
+   
         // Задаем параметры контроллера
         navigationItem.searchController = searchController
         searchController.obscuresBackgroundDuringPresentation = false
@@ -81,7 +80,4 @@ class BasicCollectionViewController: UICollectionViewController, UISearchResults
     }
     
     
-    
-
-
 }
