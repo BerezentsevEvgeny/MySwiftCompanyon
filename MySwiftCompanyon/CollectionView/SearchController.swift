@@ -30,40 +30,16 @@ class BasicCollectionViewController: UICollectionViewController, UISearchResults
         collectionView.setCollectionViewLayout(generateLayout(), animated: false)
     }
     
-    //MARK: - Конфигурируем Layout
-    private func generateLayout() -> UICollectionViewLayout {
-        let spacing: CGFloat = 10
-        
-        let itemSize = NSCollectionLayoutSize(
-            widthDimension: .fractionalWidth(1.0),
-            heightDimension: .fractionalHeight(1.0))
-        let item = NSCollectionLayoutItem(layoutSize: itemSize)
-        item.contentInsets = NSDirectionalEdgeInsets(
-            top: 0, leading: spacing, bottom: 0, trailing: spacing)
-        
-        let groupSize = NSCollectionLayoutSize(
-            widthDimension: .fractionalWidth(1.0),
-            heightDimension: .absolute(70.0))
-        let group = NSCollectionLayoutGroup.horizontal(
-            layoutSize: groupSize,
-            subitem: item, count: 2)
-        group.contentInsets = NSDirectionalEdgeInsets(top: spacing, leading: spacing, bottom: 0, trailing: spacing)
- 
-        let section = NSCollectionLayoutSection(group: group)
-        section.interGroupSpacing = spacing
 
-        let layout = UICollectionViewCompositionalLayout(section: section)
-        return layout
-    }
     
     // MARK: - DataSource
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return filteredItems.count
+        return filteredItems.count  // Поменять на фильтрованые
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! BasicCollectionViewCell
-        cell.label.text = filteredItems[indexPath.item]
+        cell.label.text = filteredItems[indexPath.item]  // Поменять на фильтрованые
         return cell
     }
     
@@ -76,7 +52,11 @@ class BasicCollectionViewController: UICollectionViewController, UISearchResults
         } else {
             filteredItems = items
         }
-            collectionView.reloadData()
+        collectionView.reloadData()
+//        var snapshot = NSDiffableDataSourceSnapshot<Sections,Movie>()
+//        snapshot.appendSections([.main])
+//        snapshot.appendItems(filteredMovies)
+//        dataSource.apply(snapshot)
     }
     
     
