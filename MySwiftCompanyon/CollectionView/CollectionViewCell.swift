@@ -1,3 +1,4 @@
+import UIKit
 
 class MainCollectionViewCell: UICollectionViewCell {
     
@@ -25,6 +26,41 @@ class MainCollectionViewCell: UICollectionViewCell {
             maker.bottom.equalToSuperview().inset(30)
         }
     }
-            
-        
+    
+   // Добавление нескольких вьюх в CustomCell
+        func addSubviews(_ views: UIView...) {
+            for view in views { addSubview(view) }
+        }
+     
+    // New configuration for any cells При каждом изменении создавать новую конфигурацию не думая о старой
+    
+    let cell: UICollectionViewCell = ...
+    
+    var content = cell.defaultContentConfiguration()
+    
+    content.image = UIImage(sustemName: "house")
+    content.text = "Hello"
+    
+    cell.contentConfiguration = content
+    
+    
+    // Background Configuration
+    BackgroundColor
+    VisualEffect
+    Stroke
+    Insets and CornerRadius
+    CustomView
+    // List Content Configuration
+    Image
+    Text
+    Secondary text
+    Layout metrics and behaviors
+    
+    override func updateConfiguration(using state: UICellConfigurationState) {
+        //code
+    }
+    override func setNeedsUpdateConfiguration() {
+        //code
+    }
+    
 }
