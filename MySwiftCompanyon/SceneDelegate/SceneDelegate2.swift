@@ -11,6 +11,4 @@ window?.rootViewController = UINavigationController(rootViewController: ViewCont
 window?.makeKeyAndVisible()
 }
 
-
-
 """
