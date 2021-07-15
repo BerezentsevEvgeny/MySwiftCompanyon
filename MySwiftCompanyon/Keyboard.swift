@@ -13,3 +13,17 @@ override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
     userNameTF.resignFirstResponder()
     passwordTF.resignFirstResponder()
 }
+
+// Скрытие при пролистывании
+tableView.keyboardDismissMode = .onDrag
+
+
+// Действие по нажатию  Return (Done)
+Подписать контроллер на UITextFieldDelegate
+
+textField.delegate = self
+
+func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+    print("Hello")
+    return true
+}
