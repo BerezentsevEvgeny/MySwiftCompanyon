@@ -28,6 +28,7 @@
 		6393D435266B5AB700991EF1 /* Clean Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6393D434266B5AB700991EF1 /* Clean Swift.swift */; };
 		63A67412268859C900B241B2 /* SceneDelegate2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A67411268859C900B241B2 /* SceneDelegate2.swift */; };
 		63AF20D1267BDE6100E2D14E /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF20D0267BDE6100E2D14E /* Class.swift */; };
+		63BA1E8626AECA4C00F7500F /* MVP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BA1E8526AECA4C00F7500F /* MVP.swift */; };
 		63D63140267DC90400F3B6C9 /* ООП.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6313F267DC90400F3B6C9 /* ООП.swift */; };
 		63D63143267DC9DF00F3B6C9 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D63142267DC9DF00F3B6C9 /* Switch.swift */; };
 		63DBF978267680ED0089C34C /* Some.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DBF977267680ED0089C34C /* Some.swift */; };
@@ -63,6 +64,7 @@
 		6393D434266B5AB700991EF1 /* Clean Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Clean Swift.swift"; sourceTree = "<group>"; };
 		63A67411268859C900B241B2 /* SceneDelegate2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate2.swift; sourceTree = "<group>"; };
 		63AF20D0267BDE6100E2D14E /* Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
+		63BA1E8526AECA4C00F7500F /* MVP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP.swift; sourceTree = "<group>"; };
 		63D6313F267DC90400F3B6C9 /* ООП.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ООП.swift"; sourceTree = "<group>"; };
 		63D63142267DC9DF00F3B6C9 /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
 		63DBF977267680ED0089C34C /* Some.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Some.swift; sourceTree = "<group>"; };
@@ -150,8 +152,9 @@
 		6393D41E266B59C000991EF1 /* MySwiftCompanyon */ = {
 			isa = PBXGroup;
 			children = (
-				637103D2268B79600030B12D /* Inteface */,
 				6393D42D266B59C100991EF1 /* Info.plist */,
+				63BA1E8526AECA4C00F7500F /* MVP.swift */,
+				637103D2268B79600030B12D /* Inteface */,
 				63A674102688599C00B241B2 /* SceneDelegate */,
 				63DE5E3F2687BA4300AC2A82 /* Instruments */,
 				6393D434266B5AB700991EF1 /* Clean Swift.swift */,
@@ -320,6 +323,7 @@
 				634F8AD7267679230063DD00 /* For...in.swift in Sources */,
 				630B37402690B18F00AE14B9 /* Actions.swift in Sources */,
 				63DE5E412687BD3F00AC2A82 /* Enum.swift in Sources */,
+				63BA1E8626AECA4C00F7500F /* MVP.swift in Sources */,
 				63DE5E342687B77000AC2A82 /* Struct.swift in Sources */,
 				63DE5E3E2687BA0200AC2A82 /* Tuples.swift in Sources */,
 				63D63140267DC90400F3B6C9 /* ООП.swift in Sources */,
