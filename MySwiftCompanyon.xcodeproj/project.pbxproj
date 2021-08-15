@@ -33,6 +33,7 @@
 		63A67412268859C900B241B2 /* SceneDelegate2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A67411268859C900B241B2 /* SceneDelegate2.swift */; };
 		63AC5A3D26B6F4C300E8044E /* CollectionViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AC5A3C26B6F4C300E8044E /* CollectionViewList.swift */; };
 		63AF20D1267BDE6100E2D14E /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF20D0267BDE6100E2D14E /* Class.swift */; };
+		63B7DE2026C9720100016DF9 /* CachingImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B7DE1F26C9720100016DF9 /* CachingImage.swift */; };
 		63BA1E8626AECA4C00F7500F /* MVP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BA1E8526AECA4C00F7500F /* MVP.swift */; };
 		63D63140267DC90400F3B6C9 /* ООП.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6313F267DC90400F3B6C9 /* ООП.swift */; };
 		63D63143267DC9DF00F3B6C9 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D63142267DC9DF00F3B6C9 /* Switch.swift */; };
@@ -74,6 +75,7 @@
 		63A67411268859C900B241B2 /* SceneDelegate2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate2.swift; sourceTree = "<group>"; };
 		63AC5A3C26B6F4C300E8044E /* CollectionViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewList.swift; sourceTree = "<group>"; };
 		63AF20D0267BDE6100E2D14E /* Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
+		63B7DE1F26C9720100016DF9 /* CachingImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachingImage.swift; sourceTree = "<group>"; };
 		63BA1E8526AECA4C00F7500F /* MVP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP.swift; sourceTree = "<group>"; };
 		63D6313F267DC90400F3B6C9 /* ООП.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ООП.swift"; sourceTree = "<group>"; };
 		63D63142267DC9DF00F3B6C9 /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 			children = (
 				6393D42D266B59C100991EF1 /* Info.plist */,
 				6307AD8726C958B900ADFCE6 /* NotificationCenter.swift */,
+				63B7DE1F26C9720100016DF9 /* CachingImage.swift */,
 				638DFE4E26AEEE36002C5365 /* Deleting Storyboard.swift */,
 				63BA1E8526AECA4C00F7500F /* MVP.swift */,
 				637103D2268B79600030B12D /* Inteface */,
@@ -332,6 +335,7 @@
 				63AC5A3D26B6F4C300E8044E /* CollectionViewList.swift in Sources */,
 				63DE5E3B2687B9CE00AC2A82 /* Set.swift in Sources */,
 				63593C72268CDD0C00A6C80E /* CreateObjects.swift in Sources */,
+				63B7DE2026C9720100016DF9 /* CachingImage.swift in Sources */,
 				6393D422266B59C000991EF1 /* SceneDelegate.swift in Sources */,
 				63DBF978267680ED0089C34C /* Some.swift in Sources */,
 				631D5C3E267A7C3A0078DC09 /* Closures.swift in Sources */,
