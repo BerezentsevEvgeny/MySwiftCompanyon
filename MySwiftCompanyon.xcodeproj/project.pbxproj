@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6307AD8826C958B900ADFCE6 /* NotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6307AD8726C958B900ADFCE6 /* NotificationCenter.swift */; };
 		630B37402690B18F00AE14B9 /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630B373F2690B18F00AE14B9 /* Actions.swift */; };
 		630BA31426726EAD005EF1E5 /*  Declaration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630BA31326726EAD005EF1E5 /*  Declaration.swift */; };
 		6310773E269F18E10043CA10 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6310773D269F18E10043CA10 /* Gradient.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6307AD8726C958B900ADFCE6 /* NotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenter.swift; sourceTree = "<group>"; };
 		630B373F2690B18F00AE14B9 /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
 		630BA31326726EAD005EF1E5 /*  Declaration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Declaration.swift"; sourceTree = "<group>"; };
 		6310773D269F18E10043CA10 /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				6393D42D266B59C100991EF1 /* Info.plist */,
+				6307AD8726C958B900ADFCE6 /* NotificationCenter.swift */,
 				638DFE4E26AEEE36002C5365 /* Deleting Storyboard.swift */,
 				63BA1E8526AECA4C00F7500F /* MVP.swift */,
 				637103D2268B79600030B12D /* Inteface */,
@@ -325,6 +328,7 @@
 				637103D4268B79800030B12D /* Navigation.swift in Sources */,
 				63DE5E372687B95C00AC2A82 /* Array.swift in Sources */,
 				6392FC7126BB08CC0070ED2E /* Aimation.swift in Sources */,
+				6307AD8826C958B900ADFCE6 /* NotificationCenter.swift in Sources */,
 				63AC5A3D26B6F4C300E8044E /* CollectionViewList.swift in Sources */,
 				63DE5E3B2687B9CE00AC2A82 /* Set.swift in Sources */,
 				63593C72268CDD0C00A6C80E /* CreateObjects.swift in Sources */,
