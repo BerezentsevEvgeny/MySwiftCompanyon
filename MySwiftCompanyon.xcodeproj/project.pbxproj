@@ -13,7 +13,6 @@
 		6310773E269F18E10043CA10 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6310773D269F18E10043CA10 /* Gradient.swift */; };
 		631943262688829900739DCB /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631943252688829900739DCB /* CollectionView.swift */; };
 		631D5C3B267A7A2A0078DC09 /* Funnctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631D5C3A267A7A2A0078DC09 /* Funnctions.swift */; };
-		631D5C3E267A7C3A0078DC09 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631D5C3D267A7C3A0078DC09 /* Closures.swift */; };
 		631F5E8E269077490073E63C /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631F5E8D269077490073E63C /* SearchController.swift */; };
 		632D1301269E051D00FD9E04 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632D1300269E051D00FD9E04 /* Keyboard.swift */; };
 		634F8AD7267679230063DD00 /* For...in.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F8AD6267679230063DD00 /* For...in.swift */; };
@@ -30,7 +29,6 @@
 		6393D429266B59C100991EF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6393D428266B59C100991EF1 /* Assets.xcassets */; };
 		6393D42C266B59C100991EF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6393D42A266B59C100991EF1 /* LaunchScreen.storyboard */; };
 		6393D435266B5AB700991EF1 /* Clean Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6393D434266B5AB700991EF1 /* Clean Swift.swift */; };
-		63A67412268859C900B241B2 /* SceneDelegate2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A67411268859C900B241B2 /* SceneDelegate2.swift */; };
 		63AC5A3D26B6F4C300E8044E /* CollectionViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AC5A3C26B6F4C300E8044E /* CollectionViewList.swift */; };
 		63AF20D1267BDE6100E2D14E /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF20D0267BDE6100E2D14E /* Class.swift */; };
 		63B7DE2026C9720100016DF9 /* CachingImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B7DE1F26C9720100016DF9 /* CachingImage.swift */; };
@@ -53,7 +51,6 @@
 		6310773D269F18E10043CA10 /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
 		631943252688829900739DCB /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
 		631D5C3A267A7A2A0078DC09 /* Funnctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funnctions.swift; sourceTree = "<group>"; };
-		631D5C3D267A7C3A0078DC09 /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
 		631F5E8D269077490073E63C /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
 		632D1300269E051D00FD9E04 /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
 		634F8AD6267679230063DD00 /* For...in.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = For...in.swift; sourceTree = "<group>"; };
@@ -72,7 +69,6 @@
 		6393D42B266B59C100991EF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6393D42D266B59C100991EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6393D434266B5AB700991EF1 /* Clean Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Clean Swift.swift"; sourceTree = "<group>"; };
-		63A67411268859C900B241B2 /* SceneDelegate2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate2.swift; sourceTree = "<group>"; };
 		63AC5A3C26B6F4C300E8044E /* CollectionViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewList.swift; sourceTree = "<group>"; };
 		63AF20D0267BDE6100E2D14E /* Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
 		63B7DE1F26C9720100016DF9 /* CachingImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachingImage.swift; sourceTree = "<group>"; };
@@ -119,27 +115,14 @@
 			path = CollectionView;
 			sourceTree = "<group>";
 		};
-		631D5C39267A7A190078DC09 /* Functions */ = {
-			isa = PBXGroup;
-			children = (
-				631D5C3A267A7A2A0078DC09 /* Funnctions.swift */,
-			);
-			path = Functions;
-			sourceTree = "<group>";
-		};
-		631D5C3C267A7C270078DC09 /* Closures */ = {
-			isa = PBXGroup;
-			children = (
-				631D5C3D267A7C3A0078DC09 /* Closures.swift */,
-			);
-			path = Closures;
-			sourceTree = "<group>";
-		};
 		637103D2268B79600030B12D /* Inteface */ = {
 			isa = PBXGroup;
 			children = (
 				637103D3268B79800030B12D /* Navigation.swift */,
 				63593C71268CDD0C00A6C80E /* CreateObjects.swift */,
+				631F5E8D269077490073E63C /* SearchController.swift */,
+				636AE8D526C6EE5B003066B7 /* TabBar Custom.swift */,
+				632D1300269E051D00FD9E04 /* Keyboard.swift */,
 			);
 			path = Inteface;
 			sourceTree = "<group>";
@@ -149,7 +132,6 @@
 			children = (
 				6393D41E266B59C000991EF1 /* MySwiftCompanyon */,
 				6393D433266B5A0900991EF1 /* Support */,
-				6393D428266B59C100991EF1 /* Assets.xcassets */,
 				6393D41D266B59C000991EF1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -165,30 +147,17 @@
 		6393D41E266B59C000991EF1 /* MySwiftCompanyon */ = {
 			isa = PBXGroup;
 			children = (
-				6393D42D266B59C100991EF1 /* Info.plist */,
+				638DFE4E26AEEE36002C5365 /* Deleting Storyboard.swift */,
 				6307AD8726C958B900ADFCE6 /* NotificationCenter.swift */,
 				63B7DE1F26C9720100016DF9 /* CachingImage.swift */,
-				638DFE4E26AEEE36002C5365 /* Deleting Storyboard.swift */,
 				63BA1E8526AECA4C00F7500F /* MVP.swift */,
-				637103D2268B79600030B12D /* Inteface */,
-				63A674102688599C00B241B2 /* SceneDelegate */,
-				63DE5E3F2687BA4300AC2A82 /* Instruments */,
-				6393D434266B5AB700991EF1 /* Clean Swift.swift */,
-				63DBF977267680ED0089C34C /* Some.swift */,
 				63D6313F267DC90400F3B6C9 /* ООП.swift */,
-				63AF20CF267BDE4A00E2D14E /* Class */,
-				63DE5E322687B75000AC2A82 /* Struct */,
-				63DE5E352687B92000AC2A82 /* Collections */,
-				631D5C3C267A7C270078DC09 /* Closures */,
-				630BA31226726E18005EF1E5 /* TableView */,
+				63DE5E3F2687BA4300AC2A82 /* Swift */,
 				63194327268882CF00739DCB /* CollectionView */,
-				631D5C39267A7A190078DC09 /* Functions */,
-				63DE5E402687BD3F00AC2A82 /* Enum.swift */,
-				631F5E8D269077490073E63C /* SearchController.swift */,
-				632D1300269E051D00FD9E04 /* Keyboard.swift */,
+				630BA31226726E18005EF1E5 /* TableView */,
+				637103D2268B79600030B12D /* Inteface */,
 				6310773D269F18E10043CA10 /* Gradient.swift */,
 				6392FC7026BB08CC0070ED2E /* Aimation.swift */,
-				636AE8D526C6EE5B003066B7 /* TabBar Custom.swift */,
 			);
 			path = MySwiftCompanyon;
 			sourceTree = "<group>";
@@ -196,20 +165,14 @@
 		6393D433266B5A0900991EF1 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				6393D42D266B59C100991EF1 /* Info.plist */,
 				6393D41F266B59C000991EF1 /* AppDelegate.swift */,
 				6393D421266B59C000991EF1 /* SceneDelegate.swift */,
 				6393D425266B59C000991EF1 /* Main.storyboard */,
 				6393D42A266B59C100991EF1 /* LaunchScreen.storyboard */,
+				6393D428266B59C100991EF1 /* Assets.xcassets */,
 			);
 			path = Support;
-			sourceTree = "<group>";
-		};
-		63A674102688599C00B241B2 /* SceneDelegate */ = {
-			isa = PBXGroup;
-			children = (
-				63A67411268859C900B241B2 /* SceneDelegate2.swift */,
-			);
-			path = SceneDelegate;
 			sourceTree = "<group>";
 		};
 		63AF20CF267BDE4A00E2D14E /* Class */ = {
@@ -228,7 +191,7 @@
 			path = Struct;
 			sourceTree = "<group>";
 		};
-		63DE5E352687B92000AC2A82 /* Collections */ = {
+		63DE5E352687B92000AC2A82 /* Array Dict Set Tuples */ = {
 			isa = PBXGroup;
 			children = (
 				63DE5E362687B95C00AC2A82 /* Array.swift */,
@@ -236,16 +199,23 @@
 				63DE5E3A2687B9CE00AC2A82 /* Set.swift */,
 				63DE5E3D2687BA0200AC2A82 /* Tuples.swift */,
 			);
-			path = Collections;
+			path = "Array Dict Set Tuples";
 			sourceTree = "<group>";
 		};
-		63DE5E3F2687BA4300AC2A82 /* Instruments */ = {
+		63DE5E3F2687BA4300AC2A82 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				63AF20CF267BDE4A00E2D14E /* Class */,
+				63DE5E322687B75000AC2A82 /* Struct */,
+				63DE5E352687B92000AC2A82 /* Array Dict Set Tuples */,
+				6393D434266B5AB700991EF1 /* Clean Swift.swift */,
+				63DBF977267680ED0089C34C /* Some.swift */,
+				631D5C3A267A7A2A0078DC09 /* Funnctions.swift */,
 				63D63142267DC9DF00F3B6C9 /* Switch.swift */,
 				634F8AD6267679230063DD00 /* For...in.swift */,
+				63DE5E402687BD3F00AC2A82 /* Enum.swift */,
 			);
-			path = Instruments;
+			path = Swift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,8 +308,6 @@
 				63B7DE2026C9720100016DF9 /* CachingImage.swift in Sources */,
 				6393D422266B59C000991EF1 /* SceneDelegate.swift in Sources */,
 				63DBF978267680ED0089C34C /* Some.swift in Sources */,
-				631D5C3E267A7C3A0078DC09 /* Closures.swift in Sources */,
-				63A67412268859C900B241B2 /* SceneDelegate2.swift in Sources */,
 				6393D435266B5AB700991EF1 /* Clean Swift.swift in Sources */,
 				636AE8D626C6EE5B003066B7 /* TabBar Custom.swift in Sources */,
 				632D1301269E051D00FD9E04 /* Keyboard.swift in Sources */,
@@ -500,7 +468,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F824GPAVR5;
-				INFOPLIST_FILE = MySwiftCompanyon/info.plist;
+				INFOPLIST_FILE = MySwiftCompanyon/Support/info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -519,7 +487,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F824GPAVR5;
-				INFOPLIST_FILE = MySwiftCompanyon/info.plist;
+				INFOPLIST_FILE = MySwiftCompanyon/Support/info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

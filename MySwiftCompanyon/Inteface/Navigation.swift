@@ -12,7 +12,6 @@ func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPat
     let game = RequestManager.shared.games[indexPath.item]
     let vc = DetailViewController()
     vc.mainGame = game
-    
     navigationController?.pushViewController(vc, animated: true)
 
 }

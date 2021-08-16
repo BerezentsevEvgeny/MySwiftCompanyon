@@ -13,10 +13,9 @@ private func addNumbers(argument parameter: Int){ }
   при вызове:
   параметр - внутренний  - используется внутри функции
   аргумент - внешний     -  для связки
-  _n :  пустой
+  _ n :  пустой
 
   Вариативные параметры -  должен быть один параметр (_ numbers: Double...)
-
 
   - Функция с возможностью ошибок
  func send(job: Int, toPrinter printerName: String) throws -> String {
