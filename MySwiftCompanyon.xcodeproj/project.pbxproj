@@ -31,6 +31,7 @@
 		6393D435266B5AB700991EF1 /* Clean Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6393D434266B5AB700991EF1 /* Clean Swift.swift */; };
 		63AC5A3D26B6F4C300E8044E /* CollectionViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AC5A3C26B6F4C300E8044E /* CollectionViewList.swift */; };
 		63AF20D1267BDE6100E2D14E /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF20D0267BDE6100E2D14E /* Class.swift */; };
+		63B2E91D26CAC8CC00A7A7DE /* Async await.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B2E91C26CAC8CC00A7A7DE /* Async await.swift */; };
 		63B7DE2026C9720100016DF9 /* CachingImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B7DE1F26C9720100016DF9 /* CachingImage.swift */; };
 		63BA1E8626AECA4C00F7500F /* MVP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BA1E8526AECA4C00F7500F /* MVP.swift */; };
 		63D63140267DC90400F3B6C9 /* ООП.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6313F267DC90400F3B6C9 /* ООП.swift */; };
@@ -71,6 +72,7 @@
 		6393D434266B5AB700991EF1 /* Clean Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Clean Swift.swift"; sourceTree = "<group>"; };
 		63AC5A3C26B6F4C300E8044E /* CollectionViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewList.swift; sourceTree = "<group>"; };
 		63AF20D0267BDE6100E2D14E /* Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
+		63B2E91C26CAC8CC00A7A7DE /* Async await.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Async await.swift"; sourceTree = "<group>"; };
 		63B7DE1F26C9720100016DF9 /* CachingImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachingImage.swift; sourceTree = "<group>"; };
 		63BA1E8526AECA4C00F7500F /* MVP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP.swift; sourceTree = "<group>"; };
 		63D6313F267DC90400F3B6C9 /* ООП.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ООП.swift"; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				63BA1E8526AECA4C00F7500F /* MVP.swift */,
 				63D6313F267DC90400F3B6C9 /* ООП.swift */,
 				63DE5E3F2687BA4300AC2A82 /* Swift */,
+				63B2E91B26CAC89C00A7A7DE /* Swift 5.5 */,
 				63194327268882CF00739DCB /* CollectionView */,
 				630BA31226726E18005EF1E5 /* TableView */,
 				637103D2268B79600030B12D /* Inteface */,
@@ -181,6 +184,14 @@
 				63AF20D0267BDE6100E2D14E /* Class.swift */,
 			);
 			path = Class;
+			sourceTree = "<group>";
+		};
+		63B2E91B26CAC89C00A7A7DE /* Swift 5.5 */ = {
+			isa = PBXGroup;
+			children = (
+				63B2E91C26CAC8CC00A7A7DE /* Async await.swift */,
+			);
+			path = "Swift 5.5";
 			sourceTree = "<group>";
 		};
 		63DE5E322687B75000AC2A82 /* Struct */ = {
@@ -291,6 +302,7 @@
 				638DFE4F26AEEE36002C5365 /* Deleting Storyboard.swift in Sources */,
 				6393D420266B59C000991EF1 /* AppDelegate.swift in Sources */,
 				63DE5E392687B97300AC2A82 /* Dictionary.swift in Sources */,
+				63B2E91D26CAC8CC00A7A7DE /* Async await.swift in Sources */,
 				63AF20D1267BDE6100E2D14E /* Class.swift in Sources */,
 				630BA31426726EAD005EF1E5 /*  Declaration.swift in Sources */,
 				631D5C3B267A7A2A0078DC09 /* Funnctions.swift in Sources */,
