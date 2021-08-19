@@ -134,11 +134,13 @@
 		637103D2268B79600030B12D /* Inteface */ = {
 			isa = PBXGroup;
 			children = (
-				637103D3268B79800030B12D /* Navigation.swift */,
+				6392FC7026BB08CC0070ED2E /* Aimation.swift */,
 				63593C71268CDD0C00A6C80E /* CreateObjects.swift */,
-				631F5E8D269077490073E63C /* SearchController.swift */,
-				636AE8D526C6EE5B003066B7 /* TabBar Custom.swift */,
 				632D1300269E051D00FD9E04 /* Keyboard.swift */,
+				637103D3268B79800030B12D /* Navigation.swift */,
+				631F5E8D269077490073E63C /* SearchController.swift */,
+				63F900D726CD78BC00585B7E /* Shadow.swift */,
+				636AE8D526C6EE5B003066B7 /* TabBar Custom.swift */,
 			);
 			path = Inteface;
 			sourceTree = "<group>";
@@ -175,8 +177,6 @@
 				637103D2268B79600030B12D /* Inteface */,
 				6310D11026CD095300C672B9 /* CoreData */,
 				6310773D269F18E10043CA10 /* Gradient.swift */,
-				6392FC7026BB08CC0070ED2E /* Aimation.swift */,
-				63F900D726CD78BC00585B7E /* Shadow.swift */,
 				63DC0C0626CD373C00F79F34 /* StatusBar.swift */,
 			);
 			path = MySwiftCompanyon;
