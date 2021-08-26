@@ -18,8 +18,6 @@ class CustomTabBar: UITabBarController {
         viewControllers = [bar1, bar2, bar3]
     }
     
-    
-    
     func createTabBaerController(vc: UIViewController, title: String, image: UIImage) -> UINavigationController {
         vc.navigationItem.title = title
         let navController = UINavigationController(rootViewController: vc)
