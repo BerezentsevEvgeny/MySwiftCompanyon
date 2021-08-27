@@ -40,9 +40,9 @@ private var animationStarted = false
             self.animationStarted.toggle()
         }
     }
-
     sender.pulsate()  // use created extension
 }
+
 
 // Spring Animation  - Set elements to SpringClasses and animate
 
