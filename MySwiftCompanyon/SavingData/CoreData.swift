@@ -8,7 +8,7 @@
 import CoreData
 
 
-     // Saving before App close
+     // Saving before App close в AppDelegate
     func applicationWillTerminate(_ application: UIApplication) {
         saveContext()
     }
@@ -45,14 +45,23 @@ import CoreData
 // Затем там где нужно обращаемся к контексту
 private let context = StorageManager.shared.persistentContainer.viewContext // пример
 
+// Либо можно инициализировать контекст
+private let viewContext: NSManagedObjectContext
+
+private init() {
+    viewContext = persistentContainer.viewContext
+}
+
 // Получаем данные по запросу
-private func fetchData() {
+func fetchData(completion: (Result<[Task], Error>) -> Void) {
+    
     let fetchRequest: NSFetchRequest<Task> = Task.fetchRequest()
     
     do {
-        taskList = try context.fetch(fetchRequest)
+        let tasks = try viewContext.fetch(fetchRequest)
+        completion(.success(tasks))
     } catch let error {
-        print(error.localizedDescription)
+        completion(.failure(error))
     }
 }
 

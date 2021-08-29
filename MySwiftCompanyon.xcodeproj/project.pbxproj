@@ -30,6 +30,7 @@
 		6393D429266B59C100991EF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6393D428266B59C100991EF1 /* Assets.xcassets */; };
 		6393D42C266B59C100991EF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6393D42A266B59C100991EF1 /* LaunchScreen.storyboard */; };
 		6393D435266B5AB700991EF1 /* Clean Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6393D434266B5AB700991EF1 /* Clean Swift.swift */; };
+		639491DC26DBDB6500B1DC43 /* Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639491DB26DBDB6500B1DC43 /* Realm.swift */; };
 		63AC5A3D26B6F4C300E8044E /* CollectionViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AC5A3C26B6F4C300E8044E /* CollectionViewList.swift */; };
 		63AF20D1267BDE6100E2D14E /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AF20D0267BDE6100E2D14E /* Class.swift */; };
 		63B2E91D26CAC8CC00A7A7DE /* Async await.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B2E91C26CAC8CC00A7A7DE /* Async await.swift */; };
@@ -74,6 +75,7 @@
 		6393D42B266B59C100991EF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6393D42D266B59C100991EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6393D434266B5AB700991EF1 /* Clean Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Clean Swift.swift"; sourceTree = "<group>"; };
+		639491DB26DBDB6500B1DC43 /* Realm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realm.swift; sourceTree = "<group>"; };
 		63AC5A3C26B6F4C300E8044E /* CollectionViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewList.swift; sourceTree = "<group>"; };
 		63AF20D0267BDE6100E2D14E /* Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
 		63B2E91C26CAC8CC00A7A7DE /* Async await.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Async await.swift"; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				6310D10E26CD030400C672B9 /* CoreData.swift */,
+				639491DB26DBDB6500B1DC43 /* Realm.swift */,
 			);
 			path = SavingData;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				63DE5E342687B77000AC2A82 /* Struct.swift in Sources */,
 				63DE5E3E2687BA0200AC2A82 /* Tuples.swift in Sources */,
 				63D63140267DC90400F3B6C9 /* ООП.swift in Sources */,
+				639491DC26DBDB6500B1DC43 /* Realm.swift in Sources */,
 				6310773E269F18E10043CA10 /* Gradient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
