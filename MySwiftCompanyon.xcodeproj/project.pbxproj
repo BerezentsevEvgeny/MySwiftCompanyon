@@ -111,12 +111,12 @@
 			path = TableView;
 			sourceTree = "<group>";
 		};
-		6310D11026CD095300C672B9 /* CoreData */ = {
+		6310D11026CD095300C672B9 /* SavingData */ = {
 			isa = PBXGroup;
 			children = (
 				6310D10E26CD030400C672B9 /* CoreData.swift */,
 			);
-			path = CoreData;
+			path = SavingData;
 			sourceTree = "<group>";
 		};
 		63194327268882CF00739DCB /* CollectionView */ = {
@@ -175,7 +175,7 @@
 				63194327268882CF00739DCB /* CollectionView */,
 				630BA31226726E18005EF1E5 /* TableView */,
 				637103D2268B79600030B12D /* Inteface */,
-				6310D11026CD095300C672B9 /* CoreData */,
+				6310D11026CD095300C672B9 /* SavingData */,
 				6310773D269F18E10043CA10 /* Gradient.swift */,
 				63DC0C0626CD373C00F79F34 /* StatusBar.swift */,
 			);
