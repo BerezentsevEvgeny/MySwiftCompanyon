@@ -27,8 +27,6 @@ class Presenter {
         let text = "Hello"
         delegate?.changetext(with: text)
     }
-    
-    
 }
 
 

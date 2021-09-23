@@ -20,6 +20,5 @@ var watchList = [Movie]() {
 }
 
 
-
-// Observe changes and add observers and their actions
+// Observe changes where needed and add observers and their actions
 NotificationCenter.default.addObserver(tableView!, selector: #selector(UITableView.reloadData), name: SearchControllerModel.watchListUpdated, object: nil)

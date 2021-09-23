@@ -30,11 +30,23 @@ class StorageManager {
     
     private init() {}
     
+    // Сохранение
     func save(taskList: [TaskList]) {
-        try! realm.write {
+        write {
             realm.add(taskList)
         }
     }
+    
+    private func write(_ comletion: () -> Void) {  // Используем для  save edit delete
+        do {
+            try realm.write {
+               comletion()
+            }
+        } catch let error {
+            print(error)
+        }
+    }
+    
 }
 
 3 // Работая с экземплярами классов сохраняем измененния при помощи save
@@ -47,4 +59,6 @@ override func viewDidLoad() {
     
     taskList = StorageManager.shared.realm.objects(TaskList.self)
 }
+
+
 

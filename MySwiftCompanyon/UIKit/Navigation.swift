@@ -17,8 +17,6 @@ func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPat
 }
 
 
-
-
 // создаем и представляем NavigationController
 @objc func imagesBtnTapped() {
     let destVC = ActorImagesCollectionVC()
