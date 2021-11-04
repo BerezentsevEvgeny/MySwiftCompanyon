@@ -33,7 +33,6 @@ class ViewConroller: UIViewController, UITableViewDataSource {
         }
     }
     
-    
     // Delegate methods
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         1
