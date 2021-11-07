@@ -11,7 +11,6 @@ class CustomTabBar: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         let bar1 = createTabBaerController(vc: SearchVC(), title: "Search", image: #imageLiteral(resourceName: "search"))
         let bar2 = createTabBaerController(vc: FavoritesVC(), title: "Favorites Actors", image: #imageLiteral(resourceName: "favourite"))
         let bar3 = createTabBaerController(vc: WatchlistVC(), title: "My Watchlist", image: #imageLiteral(resourceName: "bookmark"))
