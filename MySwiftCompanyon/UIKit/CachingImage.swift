@@ -12,7 +12,6 @@ class CharacterImageView: UIImageView {
 
     func fetchImage(from url: String) {
         guard let imageURL = URL(string: url) else { return }
-        
         // Использовать изображение из кеша, если есть
         if let cachedImage = getChachedImage(from: imageURL) {
             image = cachedImage
