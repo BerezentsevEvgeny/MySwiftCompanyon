@@ -10,7 +10,7 @@ import UIKit
 // New versions
 // Удаляем вкладку MainStoryboard и сам файл, в info.plist -> ApplicationSceneManifest удалить StoryboardName
 
-class SceneDelegatE: UIResponder, UIWindowSceneDelegate {
+class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 

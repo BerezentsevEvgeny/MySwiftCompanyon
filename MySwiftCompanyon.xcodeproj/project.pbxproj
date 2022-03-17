@@ -47,6 +47,8 @@
 		63F900D826CD78BC00585B7E /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F900D726CD78BC00585B7E /* Shadow.swift */; };
 		63FF053B26DBFAD8002DF5AC /* Flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FF053A26DBFAD8002DF5AC /* Flag.swift */; };
 		8C32E8CA270DF45300D545C1 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C32E8C9270DF45300D545C1 /* File.swift */; };
+		8C9564E127E38C510031F85C /* Optionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9564E027E38C510031F85C /* Optionals.swift */; };
+		8C9564E327E38E0C0031F85C /* Control flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9564E227E38E0C0031F85C /* Control flow.swift */; };
 		8CE988CD2715FDB8009736D6 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE988CC2715FDB8009736D6 /* Alamofire.swift */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +95,8 @@
 		63F900D726CD78BC00585B7E /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
 		63FF053A26DBFAD8002DF5AC /* Flag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flag.swift; sourceTree = "<group>"; };
 		8C32E8C9270DF45300D545C1 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		8C9564E027E38C510031F85C /* Optionals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optionals.swift; sourceTree = "<group>"; };
+		8C9564E227E38E0C0031F85C /* Control flow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Control flow.swift"; sourceTree = "<group>"; };
 		8CE988CC2715FDB8009736D6 /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -168,6 +172,7 @@
 		6393D41E266B59C000991EF1 /* MySwiftCompanyon */ = {
 			isa = PBXGroup;
 			children = (
+				8C9564DF27E38C190031F85C /* 1 V.2 */,
 				63AF650926FC691600DA468B /* Architecture */,
 				8CE988CB2715FD6E009736D6 /* Frameworks */,
 				637103D2268B79600030B12D /* Inteface */,
@@ -268,6 +273,15 @@
 			path = Swift;
 			sourceTree = "<group>";
 		};
+		8C9564DF27E38C190031F85C /* 1 V.2 */ = {
+			isa = PBXGroup;
+			children = (
+				8C9564E027E38C510031F85C /* Optionals.swift */,
+				8C9564E227E38E0C0031F85C /* Control flow.swift */,
+			);
+			path = "1 V.2";
+			sourceTree = "<group>";
+		};
 		8CE988CB2715FD6E009736D6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -360,6 +374,7 @@
 				631943262688829900739DCB /* CollectionView.swift in Sources */,
 				637103D4268B79800030B12D /* Navigation.swift in Sources */,
 				63DE5E372687B95C00AC2A82 /* Array.swift in Sources */,
+				8C9564E127E38C510031F85C /* Optionals.swift in Sources */,
 				6392FC7126BB08CC0070ED2E /* Aimation.swift in Sources */,
 				6307AD8826C958B900ADFCE6 /* NotificationCenter.swift in Sources */,
 				63AF650B26FC698C00DA468B /* UserDefaults.swift in Sources */,
@@ -367,6 +382,7 @@
 				63DE5E3B2687B9CE00AC2A82 /* Set.swift in Sources */,
 				63593C72268CDD0C00A6C80E /* CreateObjects.swift in Sources */,
 				63B7DE2026C9720100016DF9 /* CachingImage.swift in Sources */,
+				8C9564E327E38E0C0031F85C /* Control flow.swift in Sources */,
 				63DBF978267680ED0089C34C /* Some.swift in Sources */,
 				6393D435266B5AB700991EF1 /* Clean Swift.swift in Sources */,
 				636AE8D626C6EE5B003066B7 /* TabBar Custom.swift in Sources */,
