@@ -49,6 +49,7 @@
 		8C32E8CA270DF45300D545C1 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C32E8C9270DF45300D545C1 /* File.swift */; };
 		8C9564E127E38C510031F85C /* Optionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9564E027E38C510031F85C /* Optionals.swift */; };
 		8C9564E327E38E0C0031F85C /* Control flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9564E227E38E0C0031F85C /* Control flow.swift */; };
+		8C9564E527E4B4A10031F85C /* Collections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9564E427E4B4A10031F85C /* Collections.swift */; };
 		8CE988CD2715FDB8009736D6 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE988CC2715FDB8009736D6 /* Alamofire.swift */; };
 /* End PBXBuildFile section */
 
@@ -97,6 +98,7 @@
 		8C32E8C9270DF45300D545C1 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		8C9564E027E38C510031F85C /* Optionals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optionals.swift; sourceTree = "<group>"; };
 		8C9564E227E38E0C0031F85C /* Control flow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Control flow.swift"; sourceTree = "<group>"; };
+		8C9564E427E4B4A10031F85C /* Collections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collections.swift; sourceTree = "<group>"; };
 		8CE988CC2715FDB8009736D6 /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -278,6 +280,7 @@
 			children = (
 				8C9564E027E38C510031F85C /* Optionals.swift */,
 				8C9564E227E38E0C0031F85C /* Control flow.swift */,
+				8C9564E427E4B4A10031F85C /* Collections.swift */,
 			);
 			path = "1 V.2";
 			sourceTree = "<group>";
@@ -399,6 +402,7 @@
 				63D63140267DC90400F3B6C9 /* ООП.swift in Sources */,
 				639491DC26DBDB6500B1DC43 /* Realm.swift in Sources */,
 				6310773E269F18E10043CA10 /* Gradient.swift in Sources */,
+				8C9564E527E4B4A10031F85C /* Collections.swift in Sources */,
 				63FF053B26DBFAD8002DF5AC /* Flag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
