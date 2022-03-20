@@ -50,6 +50,7 @@
 		8C9564E127E38C510031F85C /* Optionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9564E027E38C510031F85C /* Optionals.swift */; };
 		8C9564E327E38E0C0031F85C /* Control flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9564E227E38E0C0031F85C /* Control flow.swift */; };
 		8C9564E527E4B4A10031F85C /* Collections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9564E427E4B4A10031F85C /* Collections.swift */; };
+		8C9564E727E778350031F85C /* For..in.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9564E627E778350031F85C /* For..in.swift */; };
 		8CE988CD2715FDB8009736D6 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE988CC2715FDB8009736D6 /* Alamofire.swift */; };
 /* End PBXBuildFile section */
 
@@ -99,6 +100,7 @@
 		8C9564E027E38C510031F85C /* Optionals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optionals.swift; sourceTree = "<group>"; };
 		8C9564E227E38E0C0031F85C /* Control flow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Control flow.swift"; sourceTree = "<group>"; };
 		8C9564E427E4B4A10031F85C /* Collections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collections.swift; sourceTree = "<group>"; };
+		8C9564E627E778350031F85C /* For..in.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = For..in.swift; sourceTree = "<group>"; };
 		8CE988CC2715FDB8009736D6 /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -281,6 +283,7 @@
 				8C9564E027E38C510031F85C /* Optionals.swift */,
 				8C9564E227E38E0C0031F85C /* Control flow.swift */,
 				8C9564E427E4B4A10031F85C /* Collections.swift */,
+				8C9564E627E778350031F85C /* For..in.swift */,
 			);
 			path = "1 V.2";
 			sourceTree = "<group>";
@@ -367,6 +370,7 @@
 				63DE5E392687B97300AC2A82 /* Dictionary.swift in Sources */,
 				63B2E91D26CAC8CC00A7A7DE /* Async await.swift in Sources */,
 				63AF20D1267BDE6100E2D14E /* Class.swift in Sources */,
+				8C9564E727E778350031F85C /* For..in.swift in Sources */,
 				630BA31426726EAD005EF1E5 /*  Declaration.swift in Sources */,
 				631D5C3B267A7A2A0078DC09 /* Funnctions.swift in Sources */,
 				631F5E8E269077490073E63C /* SearchController.swift in Sources */,
