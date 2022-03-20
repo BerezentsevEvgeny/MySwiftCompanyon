@@ -6,5 +6,11 @@
 //
 
 // Array and their functions var someCollection: [String] = []
+// .append .removeLast .insert( at: ) .contains .count .isempty
 
 // Set and their functions  var someCollection: Set<Int> = []
+// .contains .insert .sorted(by: <)
+
+// Dictionary var someCollection: [String: Int] = [:]  or Dictionary[String: Int]
+// someCollection[key] = [value]
+// .removeValue(for key: )  .count .removeAll
