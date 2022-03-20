@@ -14,3 +14,4 @@
 // Dictionary var someCollection: [String: Int] = [:]  or Dictionary[String: Int]
 // someCollection[key] = [value]
 // .removeValue(for key: )  .count .removeAll
+
