@@ -52,6 +52,8 @@
 		8C9564E527E4B4A10031F85C /* Collections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9564E427E4B4A10031F85C /* Collections.swift */; };
 		8C9564E727E778350031F85C /* For..in.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9564E627E778350031F85C /* For..in.swift */; };
 		8C9564E927E866650031F85C /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9564E827E866650031F85C /* Functions.swift */; };
+		8C9564EB27E87A9A0031F85C /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9564EA27E87A9A0031F85C /* Closures.swift */; };
+		8C9564ED27E89E480031F85C /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9564EC27E89E480031F85C /* Classes.swift */; };
 		8CE988CD2715FDB8009736D6 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE988CC2715FDB8009736D6 /* Alamofire.swift */; };
 /* End PBXBuildFile section */
 
@@ -103,6 +105,8 @@
 		8C9564E427E4B4A10031F85C /* Collections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collections.swift; sourceTree = "<group>"; };
 		8C9564E627E778350031F85C /* For..in.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = For..in.swift; sourceTree = "<group>"; };
 		8C9564E827E866650031F85C /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		8C9564EA27E87A9A0031F85C /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
+		8C9564EC27E89E480031F85C /* Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
 		8CE988CC2715FDB8009736D6 /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -287,6 +291,8 @@
 				8C9564E427E4B4A10031F85C /* Collections.swift */,
 				8C9564E627E778350031F85C /* For..in.swift */,
 				8C9564E827E866650031F85C /* Functions.swift */,
+				8C9564EA27E87A9A0031F85C /* Closures.swift */,
+				8C9564EC27E89E480031F85C /* Classes.swift */,
 			);
 			path = "1 V.2";
 			sourceTree = "<group>";
@@ -392,6 +398,7 @@
 				63DE5E3B2687B9CE00AC2A82 /* Set.swift in Sources */,
 				63593C72268CDD0C00A6C80E /* CreateObjects.swift in Sources */,
 				63B7DE2026C9720100016DF9 /* CachingImage.swift in Sources */,
+				8C9564EB27E87A9A0031F85C /* Closures.swift in Sources */,
 				8C9564E327E38E0C0031F85C /* Control flow.swift in Sources */,
 				63DBF978267680ED0089C34C /* Some.swift in Sources */,
 				6393D435266B5AB700991EF1 /* Clean Swift.swift in Sources */,
@@ -410,6 +417,7 @@
 				63D63140267DC90400F3B6C9 /* ООП.swift in Sources */,
 				639491DC26DBDB6500B1DC43 /* Realm.swift in Sources */,
 				6310773E269F18E10043CA10 /* Gradient.swift in Sources */,
+				8C9564ED27E89E480031F85C /* Classes.swift in Sources */,
 				8C9564E527E4B4A10031F85C /* Collections.swift in Sources */,
 				63FF053B26DBFAD8002DF5AC /* Flag.swift in Sources */,
 			);
