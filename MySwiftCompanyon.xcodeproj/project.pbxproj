@@ -51,6 +51,7 @@
 		8C9564E327E38E0C0031F85C /* Control flow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9564E227E38E0C0031F85C /* Control flow.swift */; };
 		8C9564E527E4B4A10031F85C /* Collections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9564E427E4B4A10031F85C /* Collections.swift */; };
 		8C9564E727E778350031F85C /* For..in.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9564E627E778350031F85C /* For..in.swift */; };
+		8C9564E927E866650031F85C /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9564E827E866650031F85C /* Functions.swift */; };
 		8CE988CD2715FDB8009736D6 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE988CC2715FDB8009736D6 /* Alamofire.swift */; };
 /* End PBXBuildFile section */
 
@@ -101,6 +102,7 @@
 		8C9564E227E38E0C0031F85C /* Control flow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Control flow.swift"; sourceTree = "<group>"; };
 		8C9564E427E4B4A10031F85C /* Collections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collections.swift; sourceTree = "<group>"; };
 		8C9564E627E778350031F85C /* For..in.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = For..in.swift; sourceTree = "<group>"; };
+		8C9564E827E866650031F85C /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		8CE988CC2715FDB8009736D6 /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -280,10 +282,11 @@
 		8C9564DF27E38C190031F85C /* 1 V.2 */ = {
 			isa = PBXGroup;
 			children = (
-				8C9564E027E38C510031F85C /* Optionals.swift */,
 				8C9564E227E38E0C0031F85C /* Control flow.swift */,
+				8C9564E027E38C510031F85C /* Optionals.swift */,
 				8C9564E427E4B4A10031F85C /* Collections.swift */,
 				8C9564E627E778350031F85C /* For..in.swift */,
+				8C9564E827E866650031F85C /* Functions.swift */,
 			);
 			path = "1 V.2";
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 				63DE5E412687BD3F00AC2A82 /* Enum.swift in Sources */,
 				63BA1E8626AECA4C00F7500F /* MVP.swift in Sources */,
 				63DE5E342687B77000AC2A82 /* Struct.swift in Sources */,
+				8C9564E927E866650031F85C /* Functions.swift in Sources */,
 				63DE5E3E2687BA0200AC2A82 /* Tuples.swift in Sources */,
 				63D63140267DC90400F3B6C9 /* ООП.swift in Sources */,
 				639491DC26DBDB6500B1DC43 /* Realm.swift in Sources */,
