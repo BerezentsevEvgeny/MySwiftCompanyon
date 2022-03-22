@@ -55,6 +55,7 @@
 		8C9564EB27E87A9A0031F85C /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9564EA27E87A9A0031F85C /* Closures.swift */; };
 		8C9564ED27E89E480031F85C /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9564EC27E89E480031F85C /* Classes.swift */; };
 		8C9564EF27E9A1FC0031F85C /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9564EE27E9A1FC0031F85C /* Enum.swift */; };
+		8C9564F127E9BAA90031F85C /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9564F027E9BAA90031F85C /* Struct.swift */; };
 		8CE988CD2715FDB8009736D6 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE988CC2715FDB8009736D6 /* Alamofire.swift */; };
 /* End PBXBuildFile section */
 
@@ -109,6 +110,7 @@
 		8C9564EA27E87A9A0031F85C /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
 		8C9564EC27E89E480031F85C /* Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
 		8C9564EE27E9A1FC0031F85C /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		8C9564F027E9BAA90031F85C /* Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
 		8CE988CC2715FDB8009736D6 /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -296,6 +298,7 @@
 				8C9564EA27E87A9A0031F85C /* Closures.swift */,
 				8C9564EC27E89E480031F85C /* Classes.swift */,
 				8C9564EE27E9A1FC0031F85C /* Enum.swift */,
+				8C9564F027E9BAA90031F85C /* Struct.swift */,
 			);
 			path = "1 V.2";
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				6393D420266B59C000991EF1 /* AppDelegate.swift in Sources */,
 				63DE5E392687B97300AC2A82 /* Dictionary.swift in Sources */,
 				63B2E91D26CAC8CC00A7A7DE /* Async await.swift in Sources */,
+				8C9564F127E9BAA90031F85C /* Struct.swift in Sources */,
 				63AF20D1267BDE6100E2D14E /* Class.swift in Sources */,
 				8C9564E727E778350031F85C /* For..in.swift in Sources */,
 				630BA31426726EAD005EF1E5 /*  Declaration.swift in Sources */,
