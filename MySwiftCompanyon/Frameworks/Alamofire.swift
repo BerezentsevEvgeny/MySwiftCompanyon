@@ -24,7 +24,7 @@ func fetchData(complition: @escaping (Result<[Beer],Error>) -> Void ) {
 }
 
 
-func fetchImage(with urlString: String, completion: @escaping (Data)-> Void) {
+func fetchImageData(with urlString: String, completion: @escaping (Data)-> Void) {
     AF.request(urlString).validate().responseData { response in
         guard let data = response.data else { return }
         DispatchQueue.main.async {

@@ -7,6 +7,7 @@
 
 // Array and their functions var someCollection: [String] = []
 // .append .removeLast .insert( at: ) .contains .count .isempty
+// .joined(separator: ", ")
 
 // Set and their functions  var someCollection: Set<Int> = []
 // .contains .insert .sorted(by: <)
