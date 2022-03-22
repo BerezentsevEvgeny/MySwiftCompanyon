@@ -9,6 +9,9 @@
 
 // Принудительное print(\(someVar!))
 
-// Извлечение if let someVar = someVar { ... }  guard let someVar = someVar { else return }
+// Привязка if let someVar = someVar { ... }  guard let someVar = someVar { else return }
 
 // Неявное извлечение  let someVar: String! = "Hello" - может работать и с опционалом и с обычным
+
+
+// Опциональная цепочка guard let adress = person?.residense?.adress else { return }
