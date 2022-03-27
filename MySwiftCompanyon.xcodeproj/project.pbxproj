@@ -58,6 +58,7 @@
 		8C9564F127E9BAA90031F85C /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9564F027E9BAA90031F85C /* Struct.swift */; };
 		8C9564F727EA2F790031F85C /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9564F627EA2F790031F85C /* Categories.swift */; };
 		8C9564F927ECE1F30031F85C /* Interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9564F827ECE1F30031F85C /* Interface.swift */; };
+		8C95651D27F0B94F0031F85C /* UIElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C95651C27F0B94F0031F85C /* UIElements.swift */; };
 		8CE988CD2715FDB8009736D6 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE988CC2715FDB8009736D6 /* Alamofire.swift */; };
 /* End PBXBuildFile section */
 
@@ -115,6 +116,7 @@
 		8C9564F027E9BAA90031F85C /* Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
 		8C9564F627EA2F790031F85C /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 		8C9564F827ECE1F30031F85C /* Interface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interface.swift; sourceTree = "<group>"; };
+		8C95651C27F0B94F0031F85C /* UIElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIElements.swift; sourceTree = "<group>"; };
 		8CE988CC2715FDB8009736D6 /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -321,6 +323,7 @@
 			isa = PBXGroup;
 			children = (
 				8C9564F827ECE1F30031F85C /* Interface.swift */,
+				8C95651C27F0B94F0031F85C /* UIElements.swift */,
 			);
 			path = "Block 2";
 			sourceTree = "<group>";
@@ -443,6 +446,7 @@
 				630B37402690B18F00AE14B9 /* Actions.swift in Sources */,
 				63DE5E412687BD3F00AC2A82 /* Enum.swift in Sources */,
 				63BA1E8626AECA4C00F7500F /* MVP.swift in Sources */,
+				8C95651D27F0B94F0031F85C /* UIElements.swift in Sources */,
 				63DE5E342687B77000AC2A82 /* Struct.swift in Sources */,
 				8C9564E927E866650031F85C /* Functions.swift in Sources */,
 				63DE5E3E2687BA0200AC2A82 /* Tuples.swift in Sources */,
