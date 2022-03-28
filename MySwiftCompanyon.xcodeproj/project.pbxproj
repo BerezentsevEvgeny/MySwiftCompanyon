@@ -59,6 +59,7 @@
 		8C9564F727EA2F790031F85C /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9564F627EA2F790031F85C /* Categories.swift */; };
 		8C9564F927ECE1F30031F85C /* Interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9564F827ECE1F30031F85C /* Interface.swift */; };
 		8C95651D27F0B94F0031F85C /* UIElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C95651C27F0B94F0031F85C /* UIElements.swift */; };
+		8CD6F13A27F223A7000B9499 /* Typecasting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD6F13927F223A7000B9499 /* Typecasting.swift */; };
 		8CE988CD2715FDB8009736D6 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE988CC2715FDB8009736D6 /* Alamofire.swift */; };
 /* End PBXBuildFile section */
 
@@ -117,6 +118,7 @@
 		8C9564F627EA2F790031F85C /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 		8C9564F827ECE1F30031F85C /* Interface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interface.swift; sourceTree = "<group>"; };
 		8C95651C27F0B94F0031F85C /* UIElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIElements.swift; sourceTree = "<group>"; };
+		8CD6F13927F223A7000B9499 /* Typecasting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typecasting.swift; sourceTree = "<group>"; };
 		8CE988CC2715FDB8009736D6 /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -324,6 +326,7 @@
 			children = (
 				8C9564F827ECE1F30031F85C /* Interface.swift */,
 				8C95651C27F0B94F0031F85C /* UIElements.swift */,
+				8CD6F13927F223A7000B9499 /* Typecasting.swift */,
 			);
 			path = "Block 2";
 			sourceTree = "<group>";
@@ -437,6 +440,7 @@
 				6393D435266B5AB700991EF1 /* Clean Swift.swift in Sources */,
 				636AE8D626C6EE5B003066B7 /* TabBar Custom.swift in Sources */,
 				8CE988CD2715FDB8009736D6 /* Alamofire.swift in Sources */,
+				8CD6F13A27F223A7000B9499 /* Typecasting.swift in Sources */,
 				632D1301269E051D00FD9E04 /* Keyboard.swift in Sources */,
 				636BC722268F810600728CF2 /* ContextMenu.swift in Sources */,
 				6310D10F26CD030400C672B9 /* CoreData.swift in Sources */,
