@@ -59,3 +59,18 @@ let alarm = Alarms.weekday(message: "Get up", time: 10)
 //        //..some code
 //    }
 //}
+
+// Вычисляемое свойство внутри перечисления
+enum Animal {
+    case dog
+    case cat
+    
+    var description: String {
+        switch self {
+        case .dog:
+            print("Its a dog")
+        case .cat:
+            print("Its a cat")
+        }
+    }
+}

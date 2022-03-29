@@ -26,3 +26,6 @@
 
 // @IBAction func unwindFor(segue: UIStoryboardSegue) {
 //  guard let settingsVC = segue.source as? SettingsViewController { else return }
+
+// Если сегвей делается не с элемента а по performSegue (лучик тянется от верхней левой части экрана),
+// то необходимо задать идентификатор сегвея(segue identifier)
