@@ -17,3 +17,12 @@
 //  if let dog = pet as? Dog {
 //    walk(with: Dog)
 //  }
+
+
+// Переходы по Segue
+
+// override func prepareForSegue(segue: UIStoryboardSegue) {
+//  guard let settingsVC = segue.destination as? SettingsViewController { else return }
+
+// @IBAction func unwindFor(segue: UIStoryboardSegue) {
+//  guard let settingsVC = segue.source as? SettingsViewController { else return }
