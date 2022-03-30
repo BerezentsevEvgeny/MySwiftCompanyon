@@ -9,6 +9,10 @@
 // .append .removeLast .insert( at: ) .contains .count .isempty
 // .joined(separator: ", ")
 
+// Перебор двух массивов в одном цикле
+//  for (button,answer) in zip(buttons,answers) {
+// }
+
 // Set and their functions  var someCollection: Set<Int> = []
 // .contains .insert .sorted(by: <)
 

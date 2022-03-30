@@ -8,6 +8,11 @@
 // Segmented control
 
 // Label
+// @IBOutlet label: UILabel! {
+//   didSet {
+//      действие при инициализации и изменении значения
+//   }
+// }
 
 // Slider
 

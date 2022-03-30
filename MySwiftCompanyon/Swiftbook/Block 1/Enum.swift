@@ -68,9 +68,9 @@ enum Animal {
     var description: String {
         switch self {
         case .dog:
-            print("Its a dog")
+            return "Its a dog"
         case .cat:
-            print("Its a cat")
+            return "Its a cat"
         }
     }
 }

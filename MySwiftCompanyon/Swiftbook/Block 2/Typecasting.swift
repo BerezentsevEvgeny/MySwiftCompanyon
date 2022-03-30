@@ -21,11 +21,16 @@
 
 // Переходы по Segue
 
+// Програмный переход
+// Если сегвей делается не с элемента а по performSegue(with identifier: String) (лучик тянется от верхней левой части экрана),
+// то необходимо задать идентификатор сегвея(segue identifier)
+
+// Подготовка к переходу
 // override func prepareForSegue(segue: UIStoryboardSegue) {
 //  guard let settingsVC = segue.destination as? SettingsViewController { else return }
+
 
 // @IBAction func unwindFor(segue: UIStoryboardSegue) {
 //  guard let settingsVC = segue.source as? SettingsViewController { else return }
 
-// Если сегвей делается не с элемента а по performSegue (лучик тянется от верхней левой части экрана),
-// то необходимо задать идентификатор сегвея(segue identifier)
+
