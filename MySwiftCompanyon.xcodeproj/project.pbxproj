@@ -61,6 +61,7 @@
 		8C9564F927ECE1F30031F85C /* Interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9564F827ECE1F30031F85C /* Interface.swift */; };
 		8C95651D27F0B94F0031F85C /* UIElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C95651C27F0B94F0031F85C /* UIElements.swift */; };
 		8CD6F13A27F223A7000B9499 /* Typecasting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD6F13927F223A7000B9499 /* Typecasting.swift */; };
+		8CD7972027F56C3900048EDD /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD7971F27F56C3900048EDD /* TableView.swift */; };
 		8CE988CD2715FDB8009736D6 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE988CC2715FDB8009736D6 /* Alamofire.swift */; };
 /* End PBXBuildFile section */
 
@@ -121,6 +122,7 @@
 		8C9564F827ECE1F30031F85C /* Interface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interface.swift; sourceTree = "<group>"; };
 		8C95651C27F0B94F0031F85C /* UIElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIElements.swift; sourceTree = "<group>"; };
 		8CD6F13927F223A7000B9499 /* Typecasting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typecasting.swift; sourceTree = "<group>"; };
+		8CD7971F27F56C3900048EDD /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 		8CE988CC2715FDB8009736D6 /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -330,6 +332,7 @@
 				8C95651C27F0B94F0031F85C /* UIElements.swift */,
 				8CD6F13927F223A7000B9499 /* Typecasting.swift */,
 				8C3A161427F4BC950027AF28 /* Protocols.swift */,
+				8CD7971F27F56C3900048EDD /* TableView.swift */,
 			);
 			path = "Block 2";
 			sourceTree = "<group>";
@@ -441,6 +444,7 @@
 				8C9564E327E38E0C0031F85C /* Control flow.swift in Sources */,
 				63DBF978267680ED0089C34C /* Some.swift in Sources */,
 				6393D435266B5AB700991EF1 /* Clean Swift.swift in Sources */,
+				8CD7972027F56C3900048EDD /* TableView.swift in Sources */,
 				636AE8D626C6EE5B003066B7 /* TabBar Custom.swift in Sources */,
 				8CE988CD2715FDB8009736D6 /* Alamofire.swift in Sources */,
 				8CD6F13A27F223A7000B9499 /* Typecasting.swift in Sources */,

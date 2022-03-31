@@ -20,6 +20,11 @@
 // someCollection[key] = [value]
 // .removeValue(for key: )  .count .removeAll
 
+// var animals: [String: String] - словарь для сортировки
+// var sortedAnimals = animals.sorted { $0.value > $1.value }
+// guard let mostFrequent = sortedAnimals.first?.key else {return}
+
+
 // Кортежи - коллекции которые группируют несколько значений в одно составное
 // У каждого из них может быть свой тип данных
 
