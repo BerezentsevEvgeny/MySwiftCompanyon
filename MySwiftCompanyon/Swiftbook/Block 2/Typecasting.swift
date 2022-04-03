@@ -29,6 +29,8 @@
 // override func prepareForSegue(segue: UIStoryboardSegue) {
 //  guard let settingsVC = segue.destination as? SettingsViewController { else return }
 
+//  C помощью sender из метода performSegue в prepareForSegue можно передать какое либо значение, скастив Any? до кужного типа - sender as? Type
+
 
 // @IBAction func unwindFor(segue: UIStoryboardSegue) {
 //  guard let settingsVC = segue.source as? SettingsViewController { else return }

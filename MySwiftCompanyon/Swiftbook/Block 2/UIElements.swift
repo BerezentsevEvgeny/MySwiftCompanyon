@@ -37,8 +37,19 @@
 //   barButtonSystemItem: .flexibleSpace,target: nil,action: nil
 //   keyboardToolbar.items = [flexBarButton, doneButton]
 
+// Скрытие клавиатуры
+// override func touchesBegan(_touches: Set<UITouch>, with event: UIEvent?) {
+// super. touchesBegan (touches, with: event)
+// mainTextField.resignFirstResponder() }
+
 
 // UIButton
+
+// Новый способ обработки без target
+//let button = UIButton()
+//button.addAction(UIAction { _ in
+//    print("")
+//}, for: .touchUpInside)
 
 // DateRicker
 
@@ -48,3 +59,25 @@
 // let formater = DateFormatter()
 //formatter.dateStyle = .medium
 
+// UIImageView
+
+// Запрос и декодинг картинки из url
+// do {
+//    let imageData = try Data(contentsOf: URL) else { return }
+//    DispatchQueue.main.async {
+//       let image = UIImage(data: imageData)
+//      {
+// } catch let error {
+//     handle error например поставить заглушку
+//  }
+//
+// либо аналог в одну строку guard let imageData = try? Data(contentsOf: URL) else { return }
+
+// Переход на глобальную очередь чтобы не ждать загрузки картинок при перерходе на следующий экран
+// guard let url = URL(string: course.imageUrl ?? "") else ( return }
+//       DispatchQueue.global().async {
+//             guard let imageData = try? Data(contentsOf:url) else ( return }
+//             DispatchQueue.main.async {
+//                 self.courselmagt.image = UlImage(data: imageData)
+//         }
+//       }
