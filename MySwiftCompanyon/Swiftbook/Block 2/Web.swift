@@ -29,9 +29,11 @@
 //  AF.request(URLS. exampleTwo.rawValue,method: .get)
 //            .validate()
 //            .responseJSON { dataResponse in
+//       //или.responseDecodable(of: ModelType.self) { response in
 //                 switch dataResponse.result {
 //                 case .success (let value) :
-//                              print(value)
+//                           guard let coursedata = value as? [[String: Any]] else {return}
+//                           здесь уже перебираем массив со словарем и тп
 //                 case .failure (let error):
 //                             print (error)
 
