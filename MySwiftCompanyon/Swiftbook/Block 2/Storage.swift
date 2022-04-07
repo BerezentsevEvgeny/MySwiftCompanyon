@@ -36,7 +36,7 @@
 //            return
 //        }
 //
-//        //Проверяем есть ли зппись в кэше
+//        //Проверяем есть ли запись в кэше
 //        if let cachedImage = loadFromCache(from:  imageURL) {
 //            image = cachedImage
 //            return
