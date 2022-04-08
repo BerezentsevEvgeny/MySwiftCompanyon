@@ -36,3 +36,7 @@
 //    }
 // }
 
+
+
+// value = max(x: Comparable,y: Comparable) -  возвращает большее их двух элементов
+
