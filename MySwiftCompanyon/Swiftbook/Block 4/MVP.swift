@@ -34,7 +34,7 @@ class Presenter {
 
 class ViewController: UIViewController, PresenterDelegate {
 
-    private let presenter = Presenter()  // Create delegate instanse
+    private let presenter = Presenter()  // Create delegate instance
 
     override func viewDidLoad() {
         super.viewDidLoad()
