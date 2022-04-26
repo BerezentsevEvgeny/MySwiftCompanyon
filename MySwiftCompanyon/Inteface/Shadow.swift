@@ -8,7 +8,7 @@
 import Foundation
 
 // У каждой Cell  есть contentView
-// Совет - в него добавлять контент при помощи addSubview()
+// в него добавлять контент при помощи addSubview()
 
 private func setupCell() {
     contentView.addSubview(posterImage)
